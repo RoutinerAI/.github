@@ -7,10 +7,9 @@
 
 _(현재는 HTML과 CSS를 사용한 시각적 디자인 프로토타입 단계입니다.)_
 
-![스크린샷 이미지](placeholder.png)
-_(추후 실제 애플리케이션 스크린샷으로 교체해주세요)_
+![메인화면 이미지](image.png)
 
-**🌐 [GitHub Pages 데모 사이트](https://your-username.github.io/RoutinerAI/)** _(링크는 실제 배포 후 업데이트해주세요)_
+**🌐 [GitHub Pages 데모 사이트](https://routinerai.github.io/)**
 
 ## 📄 추가 문서
 
