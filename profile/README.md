@@ -1,12 +1,95 @@
-## Hi there 👋
+# ✨ Routine Flow (루틴 웹 프로젝트)
 
-<!--
+매일의 루틴을 관리하고 건강한 습관을 형성하도록 돕는 모던하고 직관적인 모바일 중심 웹 애플리케이션 디자인 컨셉입니다. AI 연동을 통해 사용자에게 맞춤형 루틴 추천 및 동기 부여를 제공하는 것을 목표로 합니다.
 
-**Here are some ideas to get you started:**
+정말 힘든 루틴 만들기, 루티너가 같이 해줄게요.  
+루티너는 데일리 루틴 관리부터 목표를 이루기 위한 루틴 추천 및 인사이트 제공까지 도와주는 서비스입니다. 사용자의 관심사, 목표, 성격 등부터 매주 고정일정과 캘린더의 일정까지 다양한 정보를 반영해서 AI를 이용한 루틴을 제공합니다.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+_(현재는 HTML과 CSS를 사용한 시각적 디자인 프로토타입 단계입니다.)_
+
+![스크린샷 이미지](placeholder.png)
+_(추후 실제 애플리케이션 스크린샷으로 교체해주세요)_
+
+**🌐 [GitHub Pages 데모 사이트](https://your-username.github.io/RoutinerAI/)** _(링크는 실제 배포 후 업데이트해주세요)_
+
+## 📄 추가 문서
+
+**[개발 문서 보기](./devdocs.md)** _(개발 관련 상세 문서는 이 링크를 통해 확인하세요)_
+
+**[로고 컨셉 보기](./logoConcept.md)** _(로고 컨셉 관련 문서는 이 링크를 통해 확인하세요)_
+
+---
+
+## 🌟 주요 기능 (구현 목표)
+
+-   **데일리 루틴 관리:** 오늘의 루틴 확인, 완료 체크, 시간 기반 정렬
+-   **루틴 설정:** 사용자 정의 루틴 추가, 수정, 삭제 (아이콘 및 색상 커스터마이징 포함)
+-   **AI 기반 인사이트:**
+    -   사용자 패턴 분석 및 피드백 제공
+    -   개인화된 루틴 추천
+    -   동기 부여 메시지 및 팁
+-   **진행 상황 시각화:**
+    -   일일/주간/월간 루틴 달성률 시각화 (원형 프로그레스, 차트 등)
+    -   연속 달성 기록 (Streak) 추적
+-   **사용자 친화적 인터페이스:**
+    -   iOS 스타일의 깔끔하고 감각적인 디자인
+    -   파스텔톤 색감과 아이콘 중심의 직관적인 UI/UX
+    -   모바일 환경에 최적화된 반응형 레이아웃
+
+## 🎨 디자인 컨셉
+
+-   **모던 & 깔끔함:** 불필요한 요소를 최소화하고 충분한 여백을 활용하여 사용자가 콘텐츠에 집중할 수 있도록 합니다.
+-   **iOS 스타일:** 부드러운 곡선, 시스템 폰트(San Francisco 유사), 섬세한 그림자 효과, 직관적인 제스처(구현 시) 등을 적용하여 익숙하고 세련된 느낌을 줍니다.
+-   **파스텔톤 & 시각화:** 부드러운 파스텔 색상을 사용하여 편안하고 긍정적인 분위기를 조성하고, 아이콘과 그래픽 요소를 적극 활용하여 정보를 시각적으로 전달합니다.
+-   **사용자 편의성:** 쉬운 루틴 완료 토글, 명확한 정보 구조, 직관적인 네비게이션(하단 탭 바)을 통해 편리한 사용 경험을 제공합니다.
+
+## 🛠️ 사용 기술 (현재 및 예정)
+
+-   **프론트엔드 (현재):**
+    -   HTML5
+    -   CSS3 (Flexbox, Grid, 변수, 애니메이션 활용)
+    -   Font Awesome (아이콘)
+-   **프론트엔드 (예정):**
+    -   Typescript + NextJS: 동적 기능 구현, 상태 관리, API 연동
+-   **백엔드 (예정):**
+    -   Python: 사용자 인증, 데이터베이스 관리, API 서버 구축
+-   **데이터베이스 (예정):**
+    -   MySQL: 사용자 정보, 루틴 데이터 저장
+-   **AI (예정):**
+    -   외부 AI 서비스 API 연동
+
+## 🚀 시작하기 (현재 프로토타입)
+
+이 프로젝트는 현재 HTML과 CSS로 구성된 디자인 프로토타입입니다. 기능적인 상호작용은 구현되어 있지 않습니다.
+
+1.  이 저장소를 클론하거나 다운로드합니다.
+    ```bash
+    git clone https://github.com/your-username/routine-flow.git
+    ```
+2.  프로젝트 폴더로 이동합니다.
+    ```bash
+    cd routine-flow
+    ```
+3.  `index.html` 파일을 웹 브라우저에서 엽니다. (Live Server와 같은 확장 프로그램을 사용하면 편리합니다.)
+
+## 💡 향후 개발 계획
+
+-   [ ] **JavaScript 기반 인터랙션 구현:**
+    -   루틴 완료/미완료 토글 기능
+    -   루틴 추가/수정/삭제 모달(또는 페이지) 구현
+    -   하단 탭 바 네비게이션 기능
+    -   데이터 시각화(프로그레스 링, 차트) 동적 업데이트
+-   [ ] **백엔드 개발:**
+    -   사용자 인증 시스템 (회원가입, 로그인)
+    -   루틴 데이터 CRUD API 구현
+    -   데이터베이스 연동
+-   [ ] **AI 기능 연동:**
+    -   기본적인 루틴 추천 로직 구현
+    -   사용자 데이터 기반 패턴 분석 기능 개발 (백엔드)
+    -   AI 인사이트 표시 영역에 실제 데이터 연동
+-   [ ] **사용자 설정 기능:**
+    -   알림 설정
+    -   테마 (라이트/다크 모드) 변경
+-   [ ] **UI/UX 개선:**
+    -   애니메이션 및 트랜지션 추가
+    -   사용자 피드백 반영
