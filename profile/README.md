@@ -9,7 +9,7 @@ _(현재는 HTML과 CSS를 사용한 시각적 디자인 프로토타입 단계�
 
 ![메인화면 이미지](image.png)
 
-**🌐 [GitHub Pages 데모 사이트](https://routinerai.github.io/)**
+**🌐 [GitHub Pages 데모 사이트](https://routinerai.github.io/login)**
 
 ## 📄 추가 문서
 
