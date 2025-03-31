@@ -16,10 +16,10 @@ _(현재는 HTML과 CSS를 사용한 시각적 디자인 프로토타입 단계�
             <td><img src="AIInsitePage.png" alt="AI 인사이트 화면 이미지"></td>
         </tr>
         <tr>
-            <td>로그인 화면</td>
-            <td>메인 화면</td>
-            <td>기록 화면</td>
-            <td>AI 인사이트 화면</td>
+            <td align="center">로그인 화면</td>
+            <td align="center">메인 화면</td>
+            <td align="center">기록 화면</td>
+            <td align="center">AI 인사이트 화면</td>
         </tr>
     </table>
 </div>
