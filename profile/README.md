@@ -7,13 +7,18 @@
 
 _(현재는 HTML과 CSS를 사용한 시각적 디자인 프로토타입 단계이며, 기능적인 상호작용은 구현되어 있지 않습니다.)_
 
-<div align="center" style="display: flex; overflow-x: auto; max-height: 51vh; gap: 10px;">
-    <img src="loginPage.png" alt="로그인 화면 이미지" style="max-height: 50vh;">
-    <img src="indexPage.png" alt="메인화면 이미지" style="max-height: 50vh;">
-    <img src="achivementPage.png" alt="기록 화면 이미지" style="max-height: 50vh;">
-    <img src="AIInsitePage.png" alt="AI 인사이트 화면 이미지" style="max-height: 50vh;">
+<div align="center" class="contind">
+    <img src="loginPage.png" alt="로그인 화면 이미지" class="box">
+    <img src="indexPage.png" alt="메인화면 이미지" class="box">
+    <img src="achivementPage.png" alt="기록 화면 이미지" class="box">
+    <img src="AIInsitePage.png" alt="AI 인사이트 화면 이미지" class="box">
 </div>
-*(👆 실제 앱 스크린샷으로 교체 예정)*
+<style type='text/css'>
+  [class*="box"] { max-height: 50vh; }
+  [class*="contind"] { display: flex; overflow-x: auto; max-height: 50vh; gap: 10px;}
+</style>
+
+_(👆 실제 앱 스크린샷으로 교체 예정)_
 
 **🌐 [GitHub Pages 데모 사이트](https://routinerai.github.io/)** _(프로토타입 UI를 직접 확인해보세요!)_
 
