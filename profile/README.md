@@ -136,6 +136,3 @@ Pull Request는 언제나 환영합니다! 큰 변경 사항이 있다면, 먼�
 4.  브랜치에 푸시하세요 (`git push origin feature/AmazingFeature`).
 5.  Pull Request를 열어주세요.
 
----
-
-이 README 파일이 "루티너" 프로젝트를 이해하는 데 도움이 되기를 바랍니다!
